@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
         dia = 1;
     }
 
-    // Monta os caminhos dos arquivos
-    const caminhoVideo = `videos/Dia${dia}.mp4`;
-    const caminhoImagem = `imagens/Dia${dia}.jpeg`;
+    // Agora usando "dia" minúsculo nos caminhos
+    const caminhoVideo = `videos/dia${dia}.mp4`;
+    const caminhoImagem = `imagens/dia${dia}.jpeg`;
 
     // Seleciona os elementos no HTML
     const videoElemento = document.getElementById("video-dia");
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Atualiza a imagem do dia
     if (imagemElemento) {
         imagemElemento.src = caminhoImagem;
-        imagemElemento.alt = `Imagem do Dia ${dia}`;
+        imagemElemento.alt = `Imagem do dia ${dia}`;
     }
 });
 
