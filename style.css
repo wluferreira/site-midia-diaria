@@ -94,4 +94,20 @@
     margin-bottom: 10px;
     line-height: 1.6;
 }
+/* Seção Contato */
+.contato {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.contato p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 
