@@ -110,4 +110,18 @@
     margin-bottom: 10px;
     line-height: 1.6;
 }
+/* Rodapé */
+.rodape {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
 
