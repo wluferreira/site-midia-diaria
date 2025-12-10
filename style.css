@@ -13,6 +13,11 @@ body {
     line-height: 1.6;
 }
 
+/* Estilo para deixar o texto do GRUPO D amarelo */
+.amarelo {
+    color: yellow; /* Define a cor do texto como amarelo */
+}
+
 /* Cabeçalho estilo ICM (vermelho oficial) */
 header {
     background: #b40000;
