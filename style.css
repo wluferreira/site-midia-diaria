@@ -15,7 +15,7 @@ body {
 
 /* Cabeçalho estilo ICM (vermelho oficial) */
 header {
-    background: #b40000; /* vermelho oficial */
+    background: #b40000; /* vermelho oficial do modelo */
     color: #fff;
     padding: 20px;
     display: flex;
@@ -28,7 +28,7 @@ header h1 {
     font-size: 1.5rem;
 }
 
-/* Menu */
+/* Links do menu */
 nav a {
     color: #fff;
     margin-left: 15px;
@@ -42,29 +42,30 @@ nav a:hover {
 
 /* HERO */
 .hero {
-    height: 260px;
-    background: url('imagens/dia1.jpeg') center/cover no-repeat;
+    height: 220px;
+    background: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
     padding: 20px;
 }
 
 .hero-content h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #b40000; /* vermelho, bem visível */
 }
 
 .hero-content p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: #b40000; /* vermelho, bem visível */
 }
 
 /* Seção Mensagem de Hoje */
 .mensagem-hoje {
     padding: 40px 20px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -73,85 +74,61 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-/* GRID DA MENSAGEM (2 COLUNAS EM TELAS MAIORES) */
 .mensagem-grid {
     display: grid;
     gap: 20px;
 }
 
-/* Cards básicos (fundo cinza claro) */
 .mensagem-video,
-.mensagem-imagem,
-.mensagem-conheca {
+.mensagem-imagem {
     background: #f5f5f5;
     padding: 20px;
     border-radius: 8px;
 }
 
 .mensagem-video h3,
-.mensagem-imagem h3,
-.mensagem-conheca h3 {
+.mensagem-imagem h3 {
     margin-bottom: 10px;
 }
 
-/* Vídeo e imagem responsivos */
-.mensagem-video video {
+.mensagem-video video,
+.mensagem-imagem img {
     width: 100%;
     border-radius: 4px;
 }
 
-.mensagem-imagem img,
-.mensagem-conheca img {
-    width: 100%;
-    border-radius: 4px;
-    display: block;
-}
-
-/* Legenda do card "Conheça a ICM" */
-.conheca-legenda {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-/* Layout em duas colunas para telas maiores */
-@media (min-width: 900px) {
-    .mensagem-grid {
-        grid-template-columns: 2fr 1.4fr;
-        grid-template-areas:
-            "video imagem"
-            "video conheca";
-        align-items: flex-start;
-    }
-
-    .mensagem-video {
-        grid-area: video;
-    }
-
-    .mensagem-imagem {
-        grid-area: imagem;
-    }
-
-    .mensagem-conheca {
-        grid-area: conheca;
-    }
-}
-
-/* Seção Notícias */
+/* Seção Notícias – imagem-link da ICM */
 .noticias {
     padding: 40px 20px;
     max-width: 1000px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .noticias h2 {
-    text-align: center;
     margin-bottom: 20px;
 }
 
-.noticias-info {
-    text-align: center;
-    color: #666;
+.icm-call {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.icm-image-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none; /* remove sublinhado */
+}
+
+.icm-image {
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.icm-subtitle {
+    margin-top: 10px;
+    font-weight: 600;
 }
 
 /* Seção Sobre */
@@ -201,4 +178,3 @@ nav a:hover {
 .rodape p {
     margin-bottom: 5px;
 }
-
