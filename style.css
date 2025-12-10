@@ -213,3 +213,33 @@ nav a:hover {
 .rodape p {
     margin-bottom: 5px;
 }
+
+/* --- Notícias Portugal --- */
+
+.noticia-texto {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.noticia-img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.noticia-img:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.noticia-legenda {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
