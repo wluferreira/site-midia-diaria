@@ -13,16 +13,29 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+/* Cabeçalho estilo ICM (vermelho oficial) */
 header {
-    background: #222;
-    color: white;
+    background: #b40000; /* vermelho oficial do modelo */
+    color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
+/* Links do menu */
+nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 header h1 {
     font-size: 1.5rem;
