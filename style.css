@@ -215,20 +215,22 @@ nav a:hover {
 }
 
 /* --- Notícias Portugal --- */
-
 .noticia-texto {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
+/* IMAGEM AJUSTADA PARA DESKTOP */
 .noticia-img {
     display: block;
     margin: 0 auto;
-    width: 40%;
-    max-width: 350px;
-    border-radius: 10px;
+    width: 100%;            /* ocupa toda a largura possível */
+    max-width: 480px;       /* mas nunca passa de 480px no computador */
+    border-radius: 12px;
     transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .noticia-img:hover {
@@ -242,4 +244,3 @@ nav a:hover {
     font-weight: bold;
     font-size: 1rem;
 }
-
