@@ -43,7 +43,7 @@ nav a:hover {
 /* HERO */
 .hero {
     height: 300px;
-    background: url('imagens/Dia1.jpeg') center/cover no-repeat;
+    background: url('imagens/dia1.jpeg') center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +59,50 @@ nav a:hover {
 
 .hero-content p {
     font-size: 1.2rem;
+}
+
+/* Banner-link para o site oficial da ICM */
+.icm-banner {
+    padding: 40px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icm-banner-link {
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    background: linear-gradient(135deg, #001b4d, #003c7a, #0b1020);
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.icm-banner-content {
+    padding: 30px 25px;
+    text-align: left;
+}
+
+.icm-banner-small {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 8px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.icm-banner h2 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.icm-banner-cta {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 5px;
+    letter-spacing: 0.08em;
 }
 
 /* Seção Mensagem de Hoje */
