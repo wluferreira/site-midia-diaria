@@ -244,3 +244,36 @@ nav a:hover {
     font-weight: bold;
     font-size: 1rem;
 }
+/* --- Seção Agenda --- */
+
+.agenda {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.agenda h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.agenda h3 {
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+    color: #444;
+}
+
+/* Imagem da agenda de cultos */
+.agenda-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.agenda-img {
+    width: 95%;
+    max-width: 680px; /* Ajuste visual ideal */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
