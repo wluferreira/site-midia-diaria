@@ -33,46 +33,46 @@
         <h2>Mensagem de Hoje</h2>
 
         <div class="mensagem-grid">
+
+            <!-- COLUNA ESQUERDA: VÍDEO DO DIA -->
             <div class="mensagem-video">
                 <h3>Vídeo do Dia</h3>
-                <!-- Aqui o vídeo será carregado automaticamente via JavaScript -->
                 <video id="video-dia" controls>
                     <source src="" type="video/mp4">
                     Seu navegador não suporta o elemento de vídeo.
                 </video>
             </div>
 
+            <!-- COLUNA DIREITA (PARTE DE CIMA): IMAGEM DO DIA -->
             <div class="mensagem-imagem">
                 <h3>Imagem do Dia</h3>
-                <!-- Aqui a imagem será carregada automaticamente via JavaScript -->
                 <img id="imagem-dia" src="" alt="Imagem do dia">
             </div>
+
+            <!-- COLUNA DIREITA (PARTE DE BAIXO): CARD CONHEÇA A ICM -->
+            <div class="mensagem-conheca">
+                <h3>Conheça melhor a Igreja Cristã Maranata</h3>
+                <p>Clique na imagem abaixo e conheça melhor a Igreja Cristã Maranata.</p>
+
+                <a href="https://www.igrejacristamaranata.org.br/" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/conheca_icm.jpg"
+                         alt="Conheça melhor a Igreja Cristã Maranata">
+                </a>
+
+                <p class="conheca-legenda">
+                    IGREJA CRISTÃ MARANATA - O SENHOR JESUS VEM.
+                </p>
+            </div>
+
         </div>
     </section>
 
-    <!-- Seção Notícias: imagem-link para o site oficial da ICM -->
+    <!-- Seção Notícias (mantida para uso futuro) -->
     <section id="noticias" class="noticias">
         <h2>Notícias</h2>
 
-        <p class="icm-call">
-            CLIQUE NA IMAGEM ABAIXO E CONHEÇA MELHOR A IGREJA CRISTÃ MARANATA
-        </p>
-
-        <a
-            href="https://www.igrejacristamaranata.org.br/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="icm-image-link"
-        >
-            <img
-                src="imagens/conheca_icm.jpg"
-                alt="Conheça melhor a Igreja Cristã Maranata"
-                class="icm-image"
-            >
-        </a>
-
-        <p class="icm-subtitle">
-            IGREJA CRISTÃ MARANATA - O SENHOR JESUS VEM.
+        <p class="noticias-info">
+            Em breve: agenda semanal, seminários e avisos especiais do Grupo D.
         </p>
     </section>
 
@@ -111,3 +111,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
